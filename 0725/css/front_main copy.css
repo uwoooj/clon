@@ -327,13 +327,14 @@ main .led_wrap {
   border-bottom: 1px solid #ff4713;
 }
 main .led_wrap .letter {
-  position: absolute;
+ 
   display: inline-block;
   white-space: nowrap;
   background: none;
   /* width: 3200px; */
-  overflow: hidden;
-  animation: letter 35s linear infinite;
+   overflow: initial;
+    position: static;
+    animation: letter 30s linear infinite;
 }
 main .led_wrap .letter span {
   box-sizing: border-box;
