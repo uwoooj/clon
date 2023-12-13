@@ -526,6 +526,7 @@ main .board .bd_left {
   justify-content: center;
   align-items: center;
   border-bottom: 1px solid rgba(111, 112, 112, 0.3);
+  overflow: hidden;
 }
 main .board .bd_left .head {
   position: absolute;
@@ -2297,7 +2298,7 @@ footer .top_scrolls span {
     font-size: 90px;
   }
   main .board .bd_left .head h2 {
-    font-size: 4rem;
+    font-size: 3.2rem;
   }
   main .board .bd_left .direct .d-circle {
     width: 100%;
