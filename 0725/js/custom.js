@@ -195,23 +195,7 @@ $(function(){
 
 
 
-    
-// $('gnb > li').hover(function(){
-
-// $('.head_wrap').removeClass('on')
-// $('.head_wrap').addClass('on')
-
-// })
-
-
-// $('.gnb > li').hover(function(){
-//   $('.heda_wrap').stop().animate({height: 200}, 200)
-// // 마우스 올렸을때
-// // 서브의 높이를 200으로 늘린다
-// }, function () { //마우스 뗐을때
-//  //서브의 높이를 0으로 돌린다 
-//   $('.heda_wrap').stop().animate({height: 0},200)
-
+  
 
 
 
@@ -249,31 +233,6 @@ $('.head_wrap').on('mouseenter',function(){
 $('.head_wrap').on('mouseleave',function(){
   $('.head_wrap').removeClass('on')
 })
-
-
-
-// $('.gnb').hover(function(){
-//   $('.head_wrap').stop().slideUp();
-//   $('.head_wrap').stop().slideDown();
-
-// })
-
-// $('.gnb').hover(function(){
-//   //마우스 올렸을 때
-//   $('.menu_wrap').stop().slideDown();
-// }, function(){
-//   //마우스 뗐을 때
-//   $('.menu_wrap').stop().slideUp();
-// });
-
-// $('.gnb').mouseenter(function(){
-// 	$('.menu_wrap').stop().slideDown();
-// });
-// $('.gnb').mouseleave(function(){
-// 	$('.menu_wrap').stop().slideUp();
-// });
-
-
 
 
 
