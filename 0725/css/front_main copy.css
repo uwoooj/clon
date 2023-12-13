@@ -1067,7 +1067,6 @@ footer .top_scrolls span {
     width: 340px;
   }
   main .led_wrap {
-    padding-bottom: 0;
     position: relative;
     justify-content: flex-start;
   }
